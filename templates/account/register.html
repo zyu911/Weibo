@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeiBo</title>
+    <link href="/statics/css/register.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <div >
+        <img src="/statics/img/right/bg.png" class="bg2">
+        <div class="bg">
+             <img src="/statics/img/right/top.png" class="bg1">
+            <img src="/statics/img/right/logo.png" class="bg3">
+            <img src="/statics/img/right/bj.png" class="bg4">
+
+        </div>
+    </div>
+
+    <div style="display: inline;">
+        <div class="middle">
+            <div class="middle2">
+            <a class="middle-1" href="#">个人注册</a>
+                <!--<a>|</a>-->
+            </div>
+            <div class="middle3">
+                <a class="middle-3" href="#">官方注册</a>
+            </div>
+            <div >
+                <a class="user">用户名:</a>
+                <input type="text" class="user1" placeholder="请输入用户名">
+            </div>
+            <div>
+                <a class="email">邮箱:</a>
+                <input type="email" class="email1" placeholder="请输入邮箱">
+            </div>
+            <div>
+                <a class="pwd">密码:</a>
+                <input type="password" class="pwd1" placeholder="请输入密码">
+            </div>
+            <div>
+                <a class="pwd2">确认密码:</a>
+                <input type="password" class="pwd3" placeholder="再次输入密码">
+            </div>
+            <div>
+                <img class="code code3" onclick="ChangeCode(this)" alt="验证码" src="/CheckCodeHandler/">
+                <input type="text" placeholder="验证码" class="code1">
+
+            </div>
+            <div>
+                <a class="code2">验证码:</a>
+            </div>
+            <div class="sub">
+                <a class="sub1" href="#">立即注册</a>
+            </div>
+            <div>
+                <a class="Side"></a>
+            </div>
+            <div>
+                <a class="Side1"></a>
+            </div>
+            <div>
+                <a class="Next_content">已有账号，</a>
+                <a class="content1" href="/index/">直接登录»</a>
+            </div>
+            <div>
+                <a class="content2">微博注册帮助</a>
+            </div>
+            <div>
+                <img src="/statics/img/right/1.png" class="content-tp">
+                <a class="content-wb1">1</a>
+                <a class="content-wb2" href="#">微博注册操作指南</a>
+            </div>
+            <div>
+                <img src="/statics/img/right/1.png" class="content-tp1">
+                <a class="content-wb3">2</a>
+                <a class="content-wb4" href="#">手机注册时提示手机号码已被绑<br/>定怎么办?</a>
+            </div>
+            <div>
+                <img src="/statics/img/right/1.png" class="content-tp2">
+                <a class="content-wb5">3</a>
+                <a class="content-wb6" href="#">注册微博时昵称显示“已经被注<br/>册”如何处理?</a>
+            </div>
+            <div>
+                <img src="/statics/img/right/1.png" class="content-tp3">
+                <a class="content-wb7">4</a>
+                <a class="content-wb8" href="#">注册时提示"你所使用的IP地址异<br/>常",该怎么办?</a>
+                <a class="content-wb9" href="#">更多帮助»</a>
+            </div>
+            <div>
+                <a class="bottom-wb1" href="#">微博服务使用协议</a>
+                <a class="bottom-wb2" href="#">微博个人信息保护政策</a>
+            </div>
+            <div>
+                <a class="bottom-wb3" href="#">全国人大常委会关于网络加强信息保护的决定</a>
+            </div>
+            <div>
+                <a class="bottom-tp"></a>
+                <a class="bottom-tp1">北京微梦创科网络技术有限公司</a>
+                <a class="bottom-tb2" href="#">京网文[2011]0398-130号</a>
+                <a class="bottom-tp3">京ICP备12002058号</a>
+            </div>
+            <div>
+                <a class="bottom-tb4">Copyright © 2009-2016 WEIBO</a>
+                <select class="Drop">
+                    <option>中文(简体)</option>
+                    <option>中文(台湾)</option>
+                    <option>中文(香港)</option>
+                    <option>English</option>
+                </select>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div>
+    </div>
+    <script type="text/javascript" src="/statics/js/jquery-1.8.2.js/"></script>
+       <script>
+           function ChangeCode(ths) {
+               ths.src += '?';
+           }
+       </script>
+
+</body>
+</html>

@@ -1,0 +1,547 @@
+{% extends 'layout/layout.html' %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="/statics/css/jquery.sinaEmotion.css">
+    <link rel="stylesheet" href="/statics/css/home.css">
+    <link rel="stylesheet" href="/statics/bootstrap-3.3.0/css/bootstrap.css">
+    <link rel="stylesheet" href="/statics/font-awesome/css/font-awesome.min.css">
+    <style>
+        h1 {
+            font: 16px '微软雅黑';
+            color: #0000ff;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div class="body">
+        <div class="center">
+            <div class="left">
+                <div class="left_one">
+                    <div>首页</div>
+                    <div>我的收藏</div>
+                    <div>我的赞</div>
+                </div>
+                <div class="left_two">
+                    <span></span>
+                    <span>　热门微博</span>
+                </div>
+                <div class="left_three">
+                    <div>好友圈</div>
+                    <div>特别关注</div>
+                    <div>媒体</div>
+                    <div>本地生活</div>
+                    <div>名人明星</div>
+                    <div>群微博</div>
+                    <div>悄悄关注</div>
+                    <br>
+                </div>
+            </div>
+            <div class="l_r">
+
+                <div class="center_center" style="position: relative">
+
+
+                    <div id="img_show" class="motai hiddle">
+
+                        <div class="ttop">
+                            <span class="mo_zi">本地上传</span>
+                            <i class="icon-caret-up"></i>
+                            <i class="icon-remove" onclick="hiddle();"></i>
+                            <div class="mo_zi1">
+                                <span>共</span>
+                                <span>0</span>
+                                <span>张，还能上传</span>
+                                <span>9</span>
+                                <span>张</span>
+                            </div>
+                        </div>
+
+                        <div class="add_img">
+                            <input id="upload" multiple type="file" class="file" onchange="localShowImage();">#}
+                            <form name="form" action="/file/" method="POST" enctype="multipart/form-data">
+                                <input class="file" onchange="UploadImage(this)" name="fafafa" type="file" id="files"
+                                       multiple/>
+                            </form>
+
+                            <i class="icon-plus"></i>
+                        </div>
+
+                        <div id="list" style=""></div>
+
+                    </div>
+
+
+                    <span class="font_size"></span>
+                    <span class="title">@新住宿楼甲醛超标，数百名学生露宿天台　热门微博</span>
+                    <span class="title2 hide">还可以输入<span>140</span>字</span>
+                    <form id="form1984998" action="/publish/" method="POST" enctype="multipart/form-data">
+{#                        //{"user_id": 1, "text": "我是内容,我不是内容", "pictures_link_id": 1, "video_link_id": 1, "perm": 0, "wb_type": 0}#}
+                        <input id="pic_id" type="text" class="hide" name="pictures_link_id">
+                        <input type="text" class="hide" name="video_link_id">
+                        <input type="text" class="hide" name="prem" value="0">
+                        <input id="wb_type" type="text" class="hide" name="wb_type" value="0">
+
+
+                        <textarea name="text" id="textarea" cols="30" rows="10" oninput="font_siz()"
+                                  class="emotion"></textarea>
+                        <i class="icon-smile" id="face"></i>
+                        <span class="icon-smile_span ">表情</span>
+                        <a href="javascript:void(0);" onclick="img_show();">
+                            <i class=" icon-picture"></i>
+                            <span class="icon-smile_span ">图片</span>
+
+                        </a>
+                        <i class="icon-facetime-video"></i>
+                        <span class="icon-smile_span">视屏</span>
+                        <i class="icon-eur"></i>
+                        <span class="icon-smile_span">话题</span>
+                        <i class="icon-bolt"></i>
+                        <span class="icon-smile_span">头条文章</span>
+                        <i class="icon-ellipsis-horizontal"></i>
+                        <select name="prem" id="">
+                            <option value="1">公开</option>
+                            <option value="2">好友圈</option>
+                            <option value="3">仅自己可见</option>
+                            <option value="4">群可见</option>
+                        </select>
+                        <span class="send" onclick="submit_send();">发布</span>
+                    </form>
+                </div>
+
+
+                {% for item in data_list %}
+
+
+                    <div class="center_one">
+                        <img title="{{ request.session.user.name }}" alt=""
+                             src="http://tva1.sinaimg.cn/crop.0.26.332.332.50/9486c0d8jw8ex45c06ah4j20980dw3zj.jpg"
+                             class="W_face_radius">
+                        <div class="center_one_one">
+                            <div>
+                                <a class="font_siz"
+                                   href="http://verified.weibo.com/verify">{{ request.session.user.name }}</a>
+                                <span class="ttt">V</span>
+                                <i class="icon-weibo"></i>
+                                <i class="icon-flag-checkered"></i>
+                            </div>
+                            <div class="center_one_one_one">
+                                <a href="/2491859160/E9EILFlOa?ref=home&rid=1_0_1_3063617231848471183">{{ item.weibo.date|date:"Y-m-d H:i:s" }}</a>
+                                <span> 来自 </span>
+                                <a href="http://app.weibo.com/t/feed/5yiHuw">iPhone 6 Plus</a>
+                            </div>
+
+                        </div>
+
+                        <div class="center_one_two">
+                            <div class="center_one_two_one">
+                                <div class="font_siz2">{{ item.weibo.text }}</div>
+
+                                {% if item.pic_list %}
+                                    {% for pic in item.pic_list %}
+                                        <img class="girl_tu" src="{{ pic }}">
+                                    {% endfor %}
+                                {% endif %}
+
+
+
+                                <div>
+                                    <span class="time">来自</span>
+                                    <a class="time" href="">微博 weibo.com</a>
+                                    <a>
+                                        <i class="icon-share-alt"></i>
+                                        <span>100</span>
+                                    </a>
+                                    <a onclick="img_show_show_show(this, {{ item.weibo.id }});">
+                                        <i class="icon-edit"></i>
+                                        <span key="{{ item.weibo.id }}">{{ item.comment_num }}</span>
+                                    </a>
+                                    <a>
+                                        <i class="icon-thumbs-up-alt"
+                                           onclick="thumb_add(this, {{ item.weibo.id }});"></i>
+                                        <span>{{ item.thumb_num }}</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    //                   评论 #}
+                    <div class="talk_about hide">
+                        <div class="talk">
+                            <input class="input emotion1" type="text">
+                            <div class="tu_biao">
+                                <i class="icon-smile face1"></i>
+                                <i class=" icon-picture"></i>
+                                //                                <input type="checkbox" id="checkbox">#}
+                                //                                <span>同时同步到我的微博</span>#}
+                                <span class="send_two" onclick="comment(this,{{ item.weibo.id }});">发布</span>
+                            </div>
+                        </div>
+                        <div class="about">
+                            <div class="class_info">
+                                <a href="" class="a1">全部</a>
+                                <a href="" class="a1">热门</a>
+                                <a href="" class="a1">认证用户</a>
+                                <a href="" class="a2">关注的人</a>
+                                <span class="a3">条</span>
+                                <span class="a3">100</span>
+                                <span class="a3">共</span>
+                            </div>
+                            <div name="{{ item.weibo.id }}">
+                                评论内容
+                            </div>
+                        </div>
+                    </div>
+
+                {% endfor %}
+
+            </div>
+
+
+            <div class="right">
+                <div class="right_one">
+                    <div class="right_one_top"></div>
+                    <img class="W_face_radiu" src="http://ww3.sinaimg.cn/thumb180/006m216Rgw1f83snxik3hj30c80c8mye.jpg"
+                         alt="哈哈哈_19699">
+                    <div class="right_one_buttom">
+                        <div class="right_one_buttom_name">
+                            <a href="/my_index/">{{ request.session.user.name }}</a>
+                            <span class="ttt">V</span>
+                            <i class="icon-weibo"></i>
+                            <i class="icon-flag-checkered"></i>
+                            <i class="icon-twitter"></i>
+                            <i class="icon-heart"></i>
+                        </div>
+                        <div class="right_two_buttom">
+                            <div>
+                                <a href="#" class="num">{{ my_gz }}</a>
+                                <a href="#" class="fousu">关注</a>
+                            </div>
+                            <div class="boder">
+                                <a href="#" class="num1">{{ gz_my }}</a>
+                                <a href="#" class="fousu1">粉丝</a>
+                            </div>
+                            <div>
+                                <a href="#" class="num2">100</a>
+                                <a href="#" class="fousu2">微博</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_two">
+                    <div class="right_three">
+                        <div class="right_three_one1">
+                            <h4>热门话题</h4>
+                            <a href="" class="right_three_one10">
+                                <span class="right_three_one11"></span>
+                                <span class="right_three_one12">换一换</span>
+                            </a>
+                        </div>
+                        <div class="right_three_one">
+                            <div class="token">
+                                <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#送别乔任梁#</a>
+                                <span>8.8亿</span>
+                            </div>
+                            <div class="token1">
+                                <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#中火法规发生时#</a>
+                                <span>132万</span>
+                            </div>
+                            <div class="token1">
+                                <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#实打实大法师打发#</a>
+                                <span>122万</span>
+                            </div>
+                            <div class="token1">
+                                <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#让更多风格大方#</a>
+                                <span>67万</span>
+                            </div>
+                            <div class="token1">
+                                <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#是电饭锅电饭锅电饭锅发给你#</a>
+                                <span>33万</span>
+                            </div>
+                            <div class="token1">
+                                <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#汪峰的大幅度#</a>
+                                <span>11万</span>
+                            </div>
+                            <div class="token1">
+                                <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#法国恢复供货#</a>
+                                <span>7万</span>
+                            </div>
+                            <div class="token1">
+                                <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#睫毛膏和玫瑰花#</a>
+                                <span>3万</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_four">
+                    <span class="something">热门商品推荐</span>
+                    <hr>
+                    <img id="creativeID" src="http://i.mmcdn.cn/simba/img/TB1I7baNpXXXXaTXVXXSutbFXXX.jpg" border="0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <iframe id='upload_img_iframe' name='upload_img_iframe' src="" class="hide"></iframe>
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript" src="/statics/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/statics/bootstrap-3.3.0/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/statics/js/jquery.sinaEmotion.js"></script>
+
+
+    <script>
+        //点赞#}
+        function thumb_add(thi, id) {
+            $.ajax({
+                url: "/thumb_add/",
+                data: {"weibo_id": id},
+                type: "post",
+                dataType: "json",
+                success: function (arg) {
+                    if (arg.status) {
+                        var num = $(thi).next().text();
+                        console.log(num, "------------");
+                        $(thi).next().text(Number(num) + 1);
+                    } else {
+                    }
+                }
+            })
+
+        }
+        //点赞#}
+        //    发布评论#}
+            function comment(ths, weibo_id) {
+                var da = $(ths).parent().prev().val();
+                if (da.length == 0){
+                    alert("请输入内容!");
+                    return
+                }
+            $.ajax({
+                url:'/comment_weibo/,',
+                type:'POST',
+                dataType: "json",
+                data:{"comment": $(ths).parent().prev().val(), "to_weibo_id": weibo_id },
+                success: function (arg) {
+                    if (arg.status){
+                        var ret = JSON.parse(arg.data);
+                        var comment = '<div class="class_true"><div class="class_true_img">' +
+                                        '<img class="class_img" src="/statics/img/weibo.png/" alt="">' +
+                                        '</div><div class="class_content"><span>' +
+                                        ret.user__name +
+                                        '</span><span>回复：</span><span>' +
+                                        ret.comment +
+                                        '</span> <div class="class_content_time"><span>' +
+                                        ret.date +
+                                        '</span> <a href="" class="a1">回复</a>' +
+                                        '<i class="icon-thumbs-up-alt"></i><span>100</span> </div> </div> </div>';
+
+                        $("div[name='" + weibo_id + "']").append(comment);
+                        var num = $("span[key='" + weibo_id + "']").text();
+                        console.log(weibo_id, num);
+                        $("span[key='" + weibo_id + "']").text(Number(num)+1);
+
+
+                        $(ths).parent().prev().val('')
+
+                    }else{}
+                }
+
+            })
+
+            }
+{#        //    发布评论#}
+{##}
+{#        //    评论 #}
+{#//        $('.face1').SinaEmotion($('.emotion1'));#}
+
+        function img_show_show_show(ths, weibo_id) {
+            if ($(ths).parent().parent().parent().parent().next().hasClass("hide")) {
+                $(ths).parent().parent().parent().parent().next().removeClass("hide");
+                $.ajax({
+                    url: "/comment/",
+                    type: "POST",
+                    data: {"weibo_id": weibo_id},
+                    dataType: "JSON",
+                    success: function (arg) {
+                        if (arg.status) {
+                            var ret = JSON.parse(arg.data);
+                            var all_comment = '';
+                            $(ret).each(function (k, v) {
+                                var comment = '<div class="class_true"><div class="class_true_img">' +
+                                        '<img class="class_img" src="/statics/img/weibo.png/" alt="">' +
+                                        '</div><div class="class_content"><span>' +
+                                        v.user__name +
+                                        '</span><span>回复：</span><span>' +
+                                        v.comment +
+                                        '</span> <div class="class_content_time"><span>' +
+                                        v.date +
+                                        '</span> <a href="" class="a1">回复</a>' +
+                                        '<i class="icon-thumbs-up-alt"></i><span>100</span> </div> </div> </div>';
+                                all_comment += comment
+                            });
+                            $("div[name='" + weibo_id + "']").append(all_comment)
+                        } else {
+
+                        }
+                    }
+                })
+            }else{
+                $(ths).parent().parent().parent().parent().next().addClass("hide");
+                            $("div[name='" + weibo_id + "']").empty()
+            }}
+
+            //    评论 #}
+
+            $("#textarea").focusin(function () {
+                $(".title").addClass("hide");
+                $(".title2").removeClass("hide")
+            });
+            $("#textarea").focusout(function () {
+                $(".title").removeClass("hide");
+                $(".title2").addClass("hide")
+            });
+            function font_siz() {
+                var num = $("#textarea").val().length;
+                if (num < 140) {
+                    $(".title2").html('还可以输入' + '<span></span>' + '字');
+                    var all = $(".title2 span").text();
+                    $(".title2 span").text(140 - num);
+                } else {
+                    $(".title2").html('已超出' + '<span>0</span>' + '字');
+                    var all = $(".title2 span").text();
+                    $(".title2 span").text(Math.abs(140 - num));
+                }
+
+            }
+
+            function hiddle() {
+
+                $(".motai").addClass("hiddle")
+            }
+
+            // 打开图片对话框
+            function picture() {
+                $(".motai").removeClass("hiddle");
+            }
+
+            function submit_send() {
+                var dataa = $("#form1984998").serialize();
+                console.log(dataa, $("#form1984998"));
+                $.ajax({
+                    url: "/publish/",
+                    data: dataa,
+                    type: "post",
+                    dataType: "json",
+                    success: function (arg) {
+
+                        if (arg.status) {
+                            location.href = "/home/";
+                        } else {
+                            alert(arg.summary)
+                        }
+                    }
+                })
+            }
+
+            function img_show() {
+                $("#img_show").removeClass("hiddle")
+            }
+
+            function db_remove(thi) {
+                $(thi).parent().remove();
+
+            }
+
+            $(function () {
+                $('#detail_pre_img').delegate('img', 'ondblclick', function () {
+                    $(this).parent().remove();
+                })
+            });
+            /*
+             上传图片
+             */
+            function UploadImage(ths) {
+                document.getElementById('upload_img_iframe').onload = UploadBigImageComplete;  //收到消息后重新加载并运行这个函数
+                $(ths).parent()[0].target = 'upload_img_iframe';
+                $(ths).parent()[0].submit();
+            }
+
+            /*
+             大图成功的回调函数
+             */
+            function UploadBigImageComplete() {
+                var origin = $("#upload_img_iframe").contents().find("body").text();
+                var obj = JSON.parse(origin);
+                // 创建img标签，将图片添加到指定位置
+                if (obj.status) {
+                    $("#pic_id").val(obj.pic_id);
+                    $("#wb_type").val(1); // 1图片
+                } else {
+                    $.messager.alert('上传失败', obj.summary, 'error');
+                }
+
+            }
+
+            function handleFileSelect(evt) {
+                var files = evt.target.files;
+
+                // Loop through the FileList and render image files as thumbnails.
+                for (var i = 0, f; f = files[i]; i++) {
+
+                    // Only process image files.
+                    if (!f.type.match('image.*')) {
+                        continue;
+                    }
+
+                    var reader = new FileReader();
+
+                    // Closure to capture the file information.
+                    reader.onload = (function (theFile) {
+                        return function (e) {
+                            // Render thumbnail.
+                            var span = document.createElement('span');
+                            span.innerHTML =
+                                    [
+                                        '<img ondblclick="db_remove(this);" class="addimg" src="',
+                                        e.target.result,
+                                        '" title="', escape(theFile.name),
+                                        '"/>'
+                                    ].join('');
+
+                            document.getElementById('list').insertBefore(span, null);
+                        };
+                    })(f);
+
+                    // Read in the image file as a data URL.
+                    reader.readAsDataURL(f);
+                }
+            }
+
+            document.getElementById('files').addEventListener('change', handleFileSelect, false);
+
+            // 绑定表情
+            $('#face').SinaEmotion($('.emotion'));
+
+            // 测试本地解析
+            //        function out() //}
+            //            var inputText = $('.emotion').val();#}
+            //            $('#out').html(AnalyticEmotion(inputText));#}
+            //        }#}
+            window.onload = function () {
+                $(".font_siz2").each(function () {
+                    var inputa = $(this).text();
+                    $(this).html(AnalyticEmotion(inputa));
+                })
+            }
+    </script>
+
+{% endblock %}

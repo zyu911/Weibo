@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/statics/bootstrap-3.3.0/css/bootstrap.css">
+    <link rel="stylesheet" href="/statics/css/top.css">
+    <link rel="stylesheet" href="/statics/css/content.css/">
+    <link rel="stylesheet" href="/statics/css/homepage.css">
+    <link href="/statics/css/register.css" type="text/css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 0;
+            background: url("/statics/img/body_bg_page.jpg");
+        }
+        .hidle{
+            display: none;
+        }
+
+    </style>
+    {% block css %}
+    {% endblock %}
+
+</head>
+<body>
+
+<div class="WB_top WB_top2">
+    <div class="WB_top_width">
+        <!-- logo -->
+        <div class="gn_logo" node-type="logo" data-logotype="logo"
+             data-logourl="http://weibo.com?topnav=1&amp;mod=logo">
+            <a>
+                <span class="logo"></span> <!-- logo -->
+            </a>
+        </div>
+        <!-- 搜索    -->
+        <div class=" gn_search_v2 ">
+            <input class="form-control" id="find_text" type="text" name="text" placeholder="大家都在搜：马云出任联合国"
+                   onchange="find_text();">
+            <a id="href_my" title="搜索" href="" class="ficon_search  S_ficon"></a>
+
+
+            {#            <input type="text" class="form-control" placeholder="搜索">#}
+            {#            <a href="javascript:void(0);" title="搜索" class="ficon_search  S_ficon"></a>#}
+            <!--搜索热词下拉-->
+            <div class="gn_topmenulist_search" node-type="searchSuggest" style="display:none;">
+                <div class="gn_topmenulist">
+                    <div node-type="basic"></div>
+                    <div node-type="plus"></div>
+                </div>
+            </div>
+            <!--/搜索热词下拉-->
+        </div>
+        <!-- 搜索    -->
+        <!-- 首页 菜单-->
+        <div class="WB_right">
+            <div class="WB_right_menu">
+                <ul class="WB_right_menu_list">
+                    <li>
+                        <a class="S_txt1">
+                            <em class="f_icon em_icon"></em>
+                            <em class="em_font">首页</em>
+                        </a>
+                    </li>
+                    <li><a><em class="em_icon2"></em>
+                        <em class="em_font">视频</em></a></li>
+                    <li><a><em class="em_icon3"></em>
+                        <em class="em_font">发现</em></a></li>
+                    <li><a><em class="em_icon4"></em>
+                        <em class="em_font">游戏</em></a></li>
+                </ul>
+
+            </div>
+            <div class="WB_right_user">
+                <ul>
+                    {% if request.session.user %}
+
+                        <li>{{ request.session.user.name }}</li>
+
+                    {% else %}
+
+                        <li><a href="/register/">注册</a></li>
+                        <li class="vline"></li>
+                        <li>
+                            <!-- Small modal -->
+                            <a class="btn" data-toggle="modal" data-target=".bs-example-modal-sm"
+                               style="line-height:15px !important;">登录</a>
+                        </li>
+
+                    {% endif %}
+
+                    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog"
+                         aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-content"
+                             style="width: 606px;height: 403px;float:right;margin:50px 372px;border-top:2px  solid #fa7d3c ">
+                            <a class="W_ficon ficon_close S_ficon" onclick="colose(this)">X</a>
+                            <div class="layer_login_register_v2">
+                                <div class="tab_bar">
+                                    <a href="javascript:void(0);" node-type="login_tab"
+                                       action-type="switch" action-data="tabname=login"
+                                       class=" cur">帐号登录</a>
+                                    <a href="javascript:void(0);"
+                                       node-type="qrcode_tab" action-type="switch"
+                                       action-data="tabname=qrcode"
+                                       class=" ">安全登录</a>
+                                </div>
+                                <a href="javascript:void(0);" node-type="message_tab" action-type="switchTab"
+                                   action-data="type=message" class="qrcode_target qrcode_phone"></a>
+                                <!-- 登录框 -->
+                                <div class="B_login from_login">
+                                    <div class="item input_wrap">
+                                        <input autocomplete="off" maxlength="128" tabindex="3" node-type="username"
+                                               name="username" type="text" class="input_user_input"
+                                               action-type="text_copy"
+                                               placeholder="邮箱/会员帐号/手机号" value="">
+                                    </div>
+                                    <div class="item input_wrap_pwd">
+                                        <input autocomplete="off" maxlength="24" tabindex="4" node-type="password"
+                                               name="password" type="password" class="input_pwd_input"
+                                               action-type="text_copy"
+                                               placeholder="请输入密码" value="">
+                                    </div>
+                                    <div class="item">
+                                        <input type="checkbox" tabindex="5" id="login_form_savestate"
+                                               checked="checked" node-type="savestate">
+                                        <label
+                                                for="login_form_savestate" class="S_txt2">下次自动登录</label>
+                                        <span class="forget_psw">
+                                            <span
+                                                    suda-data="key=tblog_weibologin3&amp;value=click_forgetpwd"
+                                                    action-type="btn_password_recover" target="_blank"
+                                                    node-type="btn_password_recover"
+                                                    href="https://login.sina.com.cn/getpass.html?entry=weibo"
+                                                    class="S_txt2">忘记密码</span></span>
+                                    </div>
+                                    <div class="item_btn">
+                                        <a>登录 </a>
+                                    </div>
+                                    <div class="item_btn_qq">
+                                        <i class="qq_icon"></i>
+                                        <a>使用QQ直接登录 </a>
+                                    </div>
+                                    <div class="text_info w_tic">
+                                        <a>立即注册</a>
+                                        <a>短信登录</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="height: 38px;"></div>
+
+<div id="message" class="hidle" style="
+position: fixed ;width:300px; height:40px; border: 1px #ffe02d ;background-color: #ff5a4d; z-index: 99;
+top:50px;left:100px;
+" onclick="fush();"></div>
+
+
+
+
+{% block body %}
+{% endblock %}
+
+<div class="WB_footer S_bg2">
+    <div class="footer_link clearfix">
+        <dl class="list">
+            <dt>微博精彩</dt>
+            <dd><a class="col1 S_txt2" href="http://hot.plaza.weibo.com/?bottomnav=1&amp;wvr=6&amp;type=re&amp;act=day">热门微博</a><a
+                    class="col1 S_txt2" href="http://huati.weibo.com/?bottomnav=1&amp;wvr=6">热门话题</a></dd>
+            <dd><a class="col1 S_txt2" href="http://verified.weibo.com/?bottomnav=1&amp;wvr=6">名人堂</a><a
+                    class="col1 S_txt2" href="http://vip.weibo.com/home?bottomnav=1&amp;wvr=6">微博会员</a></dd>
+            <dd><a class="col1 S_txt2" href="http://photo.weibo.com/?bottomnav=1&amp;wvr=6">微相册</a><a
+                    class="col1 S_txt2" href="http://game.weibo.com/?bottomnav=1&amp;wvr=6">微游戏</a></dd>
+            <dd><a class="col1 S_txt2" href="http://data.weibo.com/index/?bottomnav=1&amp;wvr=6">微指数</a></dd>
+        </dl>
+        <dl class="list">
+            <dt>手机玩微博</dt>
+            <dd><span class="T_code col2">
+                    <img src="/statics/img/footer_code.jpg" alt="二维码"></span>
+                <a class="T_txt S_txt2 " href="http://m.weibo.cn/client/guide/show">扫码下载，更多版本<br>戳这里</a>
+            </dd>
+        </dl>
+        <dl class="list">
+            <dt>认证&amp;合作</dt>
+            <dd><a class="col3 S_txt2" href="http://verified.weibo.com/verify?bottomnav=1&amp;wvr=6">申请认证</a><a
+                    class="col3 S_txt2" href="http://open.weibo.com/?bottomnav=1&amp;wvr=6">开放平台</a></dd>
+            <dd><a class="col3 S_txt2" href="http://e.weibo.com/introduce/introduce?bottomnav=1&amp;wvr=6">企业微博</a><a
+                    class="col3 S_txt2" href="http://open.weibo.com/connect?bottomnav=1&amp;wvr=6">链接网站</a></dd>
+            <dd><a class="col3 S_txt2" href="http://weibo.com/static/logo?bottomnav=1&amp;wvr=6">微博标识</a><a
+                    class="col3 S_txt2" href="http://tui.weibo.com/?bottomnav=1&amp;wvr=6">广告服务</a></dd>
+            <dd><a class="col3 S_txt2" href="http://xueyuan.weibo.com/?bottomnav=1&amp;wvr=6">微博商学院</a><a
+                    class="col3 S_txt2" target="_blank" href="http://tui.weibo.com/intro/agent?bottomnav=1&amp;wvr=6">广告代理商</a>
+            </dd>
+        </dl>
+        <dl class="list">
+            <dt>微博帮助</dt>
+            <dd><a class="col4 S_txt2" target="_blank"
+                   href="http://help.weibo.com/faq/q/358?bottomnav=1&amp;wvr=6">常见问题</a></dd>
+            <dd><a class="col4 S_txt2" target="_blank" href="http://help.weibo.com/selfservice?bottomnav=1&amp;wvr=6">自助服务</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="other_link S_bg1 clearfix">
+        <p class="copy"><a target="_blank" href="http://help.weibo.com/?refer=didao&amp;bottomnav=1&amp;wvr=6"
+                           class="S_txt2"><i class="W_icon icon_weibo"></i>微博客服</a><a class="S_txt2" target="_blank"
+                                                                                      href="http://help.weibo.com/newtopic/suggest?bottomnav=1&amp;wvr=6">意见反馈</a><a
+                class="S_txt2" target="_blank" href="http://weibo.com/aj/static/report.html?_wv=6">舞弊举报</a><a
+                class="S_txt2" target="_blank" href="http://open.weibo.com/?bottomnav=1&amp;wvr=6">开放平台</a><a
+                class="S_txt2" target="_blank" href="http://hr.weibo.com/?bottomnav=1&amp;wvr=6">微博招聘</a><a
+                class="S_txt2" target="_blank" href="http://news.sina.com.cn/guide/?bottomnav=1&amp;wvr=6">新浪网导航</a><a
+                class="S_txt2" target="_blank" href="http://service.account.weibo.com/?bottomnav=1&amp;wvr=6">举报处理大厅</a>
+            <select node-type="changeLanguage" suda-data="key=tblog_home_click&amp;value=language_versions_click">
+                <option value="zh-cn" selected="">中文(简体)</option>
+                <option value="zh-tw">中文(臺灣)</option>
+                <option value="zh-hk">中文(香港)</option>
+                <option value="en">English</option>
+            </select></p>
+        <p class="copy_v2"><a class="S_txt2" target="_blank" href="http://weibo.com/aj/static/jicp.html?_wv=6">京ICP证100780号</a><a
+                class="S_txt2" href="http://weibo.com/aj/static/medi_license.html?_wv=6" target="__blank">互联网药品服务许可证</a><a
+                class="S_txt2" href="http://weibo.com/aj/static/medi_health_license.html?_wv=6" target="__blank">互联网医疗保健许可证</a><a
+                class="S_txt2" href="http://weibo.com/aj/static/jww.html?_wv=6" target="__blank">京网文[2014]2046-296号</a> <a
+                class="S_txt2" href="http://www.miibeian.gov.cn/" target="__blank">京ICP备12002058号</a> <a class="S_txt2"
+                                                                                                         href="http://weibo.com/aj/static/license.html?_wv=6"
+                                                                                                         target="__blank">增值电信业务经营许可证B2-20140447</a>
+        </p>
+        <p class="company"><span class="copy S_txt2">Copyright © 2009-2016 WEIBO 北京微梦创科网络技术有限公司</span><span><a
+                class="S_txt2" target="_blank"
+                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000019"><i
+                class="icon_netsecurity"></i>京公网安备11000002000019号</a>
+            </span></p>
+    </div>
+</div>
+
+
+<script src="/statics/js/jquery-1.9.1.min.js/"></script>
+<script src="/statics/bootstrap-3.3.0/js/bootstrap.js/"></script>
+<script type="text/javascript" src="/statics/js/jquery.sinaEmotion.js"></script>
+
+{% block js %}
+
+{% endblock %}
+
+<script>
+    function fush(){
+        location.href="/home/";
+        $("#message").addClass("hidle")
+    }
+
+
+    function find_text() {
+        var text = $("#find_text").val();
+        $("#href_my").attr("href", "/find_text/?text=" + text)
+
+    }
+    function my_submit() {
+        var dat = $("#my_form_998").serialize();
+        $.ajax({
+            url: "/login/",
+            data: dat,
+            type: "post",
+            dataType: "json",
+            success: function (arg) {
+                if (arg.status) {
+                    location.href = "/home/"
+                } else {
+                    alert("用户名或密码错误")
+                }
+            }
+        })
+    }
+    var time = setInterval(move,5000);
+    function move() {
+        $.ajax({
+            url: "/auto/",
+            data: {"a":1},
+            type: "post",
+            dataType: "json",
+            success:function (arg) {
+                if(arg.status){
+                   $("#message").text("您有" + arg.data + "条未读内容, 点击查看").removeClass("hidle")
+                }else{
+                    console.log("没有登录, 或消息")
+                }
+            }
+        })
+            }
+
+</script>
+
+</body>
+</html>

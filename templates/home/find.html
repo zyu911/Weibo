@@ -1,0 +1,416 @@
+{% extends 'layout/layout.html' %}
+
+{% block css %}
+    <link rel="stylesheet" href="/statics/css/index.css">
+    <link rel="stylesheet" href="/statics/bootstrap-3.3.0/css/bootstrap.css">
+    <style>
+    body {
+    background-image: url("/statics/img/body_bg.jpg");
+    margin: 0;
+    padding: 0;
+}
+    </style>
+{% endblock %}
+
+
+{% block body %}
+<div class="body">
+    <div class="center">
+        <div class="left">
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">推荐</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">明星</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">视频</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">搞笑</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">情感</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">社会</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">综艺</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">美妆</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">美食</span>
+            </a>
+            <a href="" class="a">
+                <span class="tu"></span>
+                <span class="left_menue">美女</span>
+            </a>
+            <a href="" class="a">
+                <span class="span">...</span>
+                <span class="">更多</span>
+            </a>
+        </div>
+        <div class="center_center">
+            <div class="right_one">
+                <div class="right_one_inner">
+                    <span class="right_one_inner1 active">账号登录</span>
+                    <span class="right_one_inner1">安全登录</span>
+                    <form action="">
+                        <input type="text" class="input" placeholder="邮箱/会员帐号/手机号">
+                        <div class="c1"></div>
+                        <input type="text" class="input" placeholder="请输入密码">
+                        <div class="c2"></div>
+                        <div class="check">
+                            <input type="checkbox" name="shuiguo" value="1" checked="checked">
+                            <span>记住我</span>
+                            <span class="forget">忘记密码</span>
+                        </div>
+                        <input type="button" value="登录" class="login">
+                    </form>
+                    <div class="right_one_inner_foot">
+                        <span>还没有微博？</span>
+                        <a href="">立即注册!</a>
+                    </div>
+                    <hr>
+                    <div class="right_one_inner_foot_foot">
+                        <span>其他登录：</span>
+                        <span class="c3"></span>
+                        <span class="c4"></span>
+                        <span class="c5"></span>
+                        <span class="c6"></span>
+                        <span class="c7"></span>
+                        <span class="c8"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="right_two">
+                <span class="right_two_tu1"></span>
+                <span class="icon_txt S_txt2">iPhone<br>客户端下载</span>
+                <span class="right_two_tu2"></span>
+                <span class="icon_txt S_txt2">Android<br>客户端下载</span>
+            </div>
+            <div class="right_three">
+                <div class="right_three_one1">
+                    <h4>热门话题</h4>
+                    <a href="" class="right_three_one10">
+                        <span class="right_three_one11"></span>
+                        <span class="right_three_one12">换一换</span>
+                    </a>
+                </div>
+                <div class="right_three_one">
+                    <div class="token">
+                        <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#送别乔任梁#</a>
+                        <span>8.8亿</span>
+                    </div>
+                    <div class="token1">
+                        <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#中火法规发生时#</a>
+                        <span>132万</span>
+                    </div>
+                    <div class="token1">
+                        <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#实打实大法师打发#</a>
+                        <span>122万</span>
+                    </div>
+                    <div class="token1">
+                        <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#让更多风格大方#</a>
+                        <span>67万</span>
+                    </div>
+                    <div class="token1">
+                        <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#是电饭锅电饭锅电饭锅发给你#</a>
+                        <span>33万</span>
+                    </div>
+                    <div class="token1">
+                        <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#汪峰的大幅度#</a>
+                        <span>11万</span>
+                    </div>
+                    <div class="token1">
+                        <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#法国恢复供货#</a>
+                        <span>7万</span>
+                    </div>
+                    <div class="token1">
+                        <a href="http://weibo.com/p/1008081b8fdda0f0373512eb2f5510eb3ba609?k=%E9%80%81%E5%88%AB%E4%B9%94%E4%BB%BB%E6%A2%81&from=trendtop_api">#睫毛膏和玫瑰花#</a>
+                        <span>3万</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right_four">
+                <a href="http://weibo.com/p/1004041196010">
+                    <img src="http://ww4.sinaimg.cn/large/005M94J9jw1f33a105uixj306e02sjs7.jpg " alt="">
+                </a>
+
+            </div>
+            <div class="right_five">
+                <span class="right_five_one">新浪头条</span>
+                <div class="right_five_two">
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_five_tu"></span>
+                        <span class="new">热榜要闻</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_five_tu1"></span>
+                        <span class="new">我爱看图</span>
+                    </a>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_five_tu2"></span>
+                        <span class="new">猜你喜欢</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_five_tu3"></span>
+                        <span class="new">精彩视屏</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_three"
+                       href="http://www.sina.com.cn/mid/hot/2016-09-22/doc-ifxwevmf1905517.shtml">
+                        <span class="k_new">要闻</span>
+                        <span class="new">刘德华因粉丝被推搡当场发飙</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_three"
+                       href="http://www.sina.com.cn/mid/hot/2016-09-22/doc-ifxwevmf1905517.shtml">
+                        <span class="k_new">视屏</span>
+                        <span class="new">皮特离婚丑闻连爆疑朱莉设局</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_three"
+                       href="http://www.sina.com.cn/mid/hot/2016-09-22/doc-ifxwevmf1905517.shtml">
+                        <span class="k_new">热图</span>
+                        <span class="new">乔父致辞:我们不怪你永远爱你</span>
+                    </a>
+                </div>
+            </div>
+            <div class="right_four">
+                <a href="http://weibo.com/p/1004041196010">
+                    <img src="http://u1.img.mobile.sina.cn/public/files/image/230x175_img57e244617624c.png" alt="">
+                </a>
+
+            </div>
+            <div class="right_five">
+                <span class="right_five_one">新浪头条</span>
+                <div>
+                    <span class="right_five_one_one">名人</span>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu"></span>
+                        <span class="new">明星</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu1"></span>
+                        <span class="new">商界</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">媒体</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu3"></span>
+                        <span class="new">作家</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu4"></span>
+                        <span class="new">政府官员</span>
+                    </a>
+                    <span class="right_five_one_one">专家</span>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu"></span>
+                        <span class="new">医疗</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu1"></span>
+                        <span class="new">育儿</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">财经</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu3"></span>
+                        <span class="new">电台</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">汽车</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu3"></span>
+                        <span class="new">婚庆</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">招聘</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu3"></span>
+                        <span class="new">作家</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">广东</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu3"></span>
+                        <span class="new">爱迪</span>
+                    </a>
+                    <span class="right_five_one_one">兴趣</span>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu"></span>
+                        <span class="new">医疗</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu1"></span>
+                        <span class="new">育儿</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">财经</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">电台</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">汽车</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">婚庆</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu1"></span>
+                        <span class="new">招聘</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu2"></span>
+                        <span class="new">作家</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu3"></span>
+                        <span class="new">广东</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu1"></span>
+                        <span class="new">爱迪</span>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu4"></span>
+                        <span class="new">房产家装</span>
+                    </a>
+                    <span class="right_five_one_one">机构</span>
+                    <a class="right_five_two_one" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu"></span>
+                        <span class="new">政府</span>
+                    </a>
+                    <a class="right_five_two_two" href="http://www.sina.com.cn/#a-impcon">
+                        <span class="right_six_tu1"></span>
+                        <span class="new">媒体</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="right">
+            <div id="my_message" class="message">您有未读内容，点击查看</div>
+            <div class="right_center">
+
+                {% for item in data_list %}
+
+                    {% if item.pic_list %}
+                <div class="right_center_center">
+                    <br>
+                    <a href="http://weibo.com/ttarticle/p/show?id=2309404022481848502842">
+                        <span class="right_center_center_title">{{ item.weibo.text }}</span>
+                        <span class="right_center_center_detil">凝视着你的背影 就快要接近透明</span>
+                        <br>
+                        <br>
+                        {% for src in item.pic_list %}
+                        <img class="img"
+                             src="{{ src }}"
+                             alt="">
+                        {% endfor %}
+
+                    </a>
+                    <div class="right_center_center_foot">
+                        <span><img src="http://tva2.sinaimg.cn/crop.0.0.996.996.50/e601c3fdjw8f0ae839fiqj20ro0roab0.jpg"
+                                   alt=""></span>
+                        <span>@麻辣娱婆</span>
+                        <span>　9月22日 12:17</span>
+                        <span>　　　　　　　　　　　　　　　　</span>
+                        <span class="right_center_center_foot_img"></span>
+                        <span>0</span>
+                        <span class="right_center_center_foot_img1"></span>
+                        <span>{{ item.comment_num }}</span>
+                        <span class="right_center_center_foot_img2"></span>
+                        <span>{{ item.thumb_num }}</span>
+                    </div>
+                </div>
+                    {% else %}
+                <div class="right_center_center1">
+                    <br>
+                    <a href="http://weibo.com/ttarticle/p/show?id=2309404022481848502842">
+                        <br>
+                        <br>
+                        <span class="right_center_center_detil">{{ item.weibo.text}}</span>
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="right_center_center_foot">
+                        <span><img id="img"
+                                   src="http://tva2.sinaimg.cn/crop.0.0.996.996.50/e601c3fdjw8f0ae839fiqj20ro0roab0.jpg"
+                                   alt=""></span>
+                        <span>@麻辣娱婆</span>
+                        <span>　9月22日 13:37</span>
+                        <span>　　　　　　　　　　　　　　　　</span>
+                        <span class="right_center_center_foot_img"></span>
+                        <span>0</span>
+                        <span class="right_center_center_foot_img1"></span>
+                        <span>{{ item.comment_num }}</span>
+                        <span class="right_center_center_foot_img2"></span>
+                        <span>{{ item.thumb_num }}</span>
+                    </div>
+                </div>
+                    {% endif %}
+                {% endfor %}
+
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

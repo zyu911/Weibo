@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbd70913-d0d7-4cb2-9234-cb5d0bd6ccc3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Monaco.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/body_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/body_bg_page.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/footer_code.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/icon_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/qq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/bj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/gj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/reg_ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/vline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/sprite_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/tu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/upload_img/beautiful-asian-model-spring.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/upload_img/devochka-karta-razorvannaya.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/upload_img/devushka-aziatka-na-relsah.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/upload_img/devushka-gorod-krysha-poisk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/upload_img/devushka-karandash-pticy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/upload_img/devushka-manikyur-meditiruet.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/upload_img/devushka-plate-pavlin-zhest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/weibo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/xmb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/plugins/bxSlider/images/bx_loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/plugins/bxSlider/images/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/04538168c05193e139f7930e893e47e5/141aefedef853783b6d0168377d9e444.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/04538168c05193e139f7930e893e47e5/1723e7d80c57b40795bd59b042fe0741.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/04538168c05193e139f7930e893e47e5/2e5d23245c7cf212d98ccfc5a27a260b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/04538168c05193e139f7930e893e47e5/929bc1dfc605be266a5f43bf1774175b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/04538168c05193e139f7930e893e47e5/bac0067866a294e30774e0614879f196.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/04538168c05193e139f7930e893e47e5/bf67a3a1b39ee06fef52e1c8e0f23744.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/04538168c05193e139f7930e893e47e5/c7b7cfe3b1f345b08a1b271309aa523b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/04538168c05193e139f7930e893e47e5/f611e9e4527b3fa6bb5cf202955b7ddf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/0d41160bc9d34e7f8f9bf58f086cb5b5/98948bc5e24eb20e9b490c389678994b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/0f747f32dd7c71547f3dacf075d8f15b/40c9ff7611c6aa5194f618b083a87fcf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/10a1b5082b0cd00de35d5fcc4af6652b/bf2de6be71d4bdabae9bcc135bae0482.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/1171207e50d111ed9f4188fdc3ed2f59/fc6b9078db200e805dbf3305eaf722c2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/12bbc73d12c088cbd6836261557396b7/75180a191fa4dbf7d5e071a16e9eab5b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/1c89921a606724e8d6fbbec970df5aad/ead42386c1b3a771b540951b558363b1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/1ca7b4a7b6ea5fa6eaaf5c3f3f2f7374/2fc940c9309cd90f112e46e935cd0e61.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/2660c6ae9a4d990cdadc9f8e05636084/0c9366899602ceafdd7189cd61d2ed37.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/2660c6ae9a4d990cdadc9f8e05636084/0f74a20a5e8703b310276af170ee84b2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/2660c6ae9a4d990cdadc9f8e05636084/6c88327a0ae3fca502769d7e3e163093.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/32bfaf4cb2e569634e3bd69c83b981e9/d3c8775cdfcf0d9f46bbefdc543dab26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/454580242819ada1e8f14a94e15a06cc/873b790c319bb52168618bf145444958.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/5626956f5667e301a9f5b7b604a901f7/aec2039b288cee405cf63f7201016c13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/61542b404c55f22b23ce5266958ce86a/f8af93363b8fe9d5c09eeb0a8bfac690.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/6194065eb87be0c80c77c9da8f4f1f6a/093add9cd7ab9c00df2c9fa8ca58e1e1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/6194065eb87be0c80c77c9da8f4f1f6a/4df1e6f57bd9639176ad59846dff3481.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/6194065eb87be0c80c77c9da8f4f1f6a/52b702823355a76443ba2d97f0eaa06d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/6194065eb87be0c80c77c9da8f4f1f6a/5c6929c981171ff7d5b50ce1e01264e6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/6194065eb87be0c80c77c9da8f4f1f6a/5f41a82795fcf953b45aace74ababeba.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/6194065eb87be0c80c77c9da8f4f1f6a/9633d3b77b242b83f5350fb9838f62d9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/6194065eb87be0c80c77c9da8f4f1f6a/a2e46e071c1a8aad884a4598cfa5401e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/6194065eb87be0c80c77c9da8f4f1f6a/f3bae88aee70edda0bf81314da3d6721.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/629ed6a2591f93ff022a5f9951c52abc/b8656fb6465b33e815d36ffb308357d5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/66f2083e1f686828d2a529508545465f/caa4c4c1564623c9b99ac21b1189492a.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/7269fd867185f62e845c4caebbfcdec1/83a224ee38558c3c056faca0ec6931ff.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/7ab96e2c5513f268cf464c39d5bdcecc/029d206a4a2072270595540464aa2b6e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/7c3566348d3f7ec7f0c9e253d860f9fe/2c5194ab35ec48bb8e4705c06f150229.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/830d619095d6cfc4a9d2c142fe851fde/745a84c5de0d6d0561b2aba531537fa9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/8a106e407721c8e393c98d16d0280726/9e9353ec2c49c2d99a8bd4fdf7edf943.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/8a106e407721c8e393c98d16d0280726/b2cf0c4021a90a08b50314bd65c13d8f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/8a106e407721c8e393c98d16d0280726/fcdc17ee7ed19026dc87df5734fc1e56.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/8c87ade5e5f9872b7f04f819346827c5/3fd750930aec125a6f79dc736a770400.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/903e51ab89a39aa04450dd1c5db5ff0d/32aaf4a8e5850dd82961f56d8e4f1b22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/9075588b89a2c5bf4ac2b467e1007eb1/a284a5734b012e41f6c4a4e33a09229c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/9075588b89a2c5bf4ac2b467e1007eb1/a7dbd50bcdc1dc170909c285ca8d6a92.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/9075588b89a2c5bf4ac2b467e1007eb1/b57543d716dcd1ce99cbe15d5e87ead1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/9849bc33c6db34de900bafe44b9f3f69/3d3131699b6442be12a203f866187cbc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/9849bc33c6db34de900bafe44b9f3f69/4fb601f8eef53479b99b0f50053b96a5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/accd7a21696d4b77486b441a4d75d79e/22ecd0eb8b19a1438479676d5ff6350e.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/b1eb8d4383439203713d3ea16510af79/13888cb31fd40b81a42c682a5e41a35d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/b57a25fe41aebdf83e58408eb0af13c2/19a65dc8161f475969b691bb9c4858ff.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/b57a25fe41aebdf83e58408eb0af13c2/b276f1e6a460362bb525b4e49762f20d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/c0f08878a83fb8bf1cb5e04e227af964/4db5907267ac6d0fec68bb3d9387fd0a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/c0f08878a83fb8bf1cb5e04e227af964/aa06eaf8c89211f078921b64b78d0fcd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/c0f08878a83fb8bf1cb5e04e227af964/f1961b0fe1abd490b5f48749ebdfcada.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/c1086e7b68403af4ffe71953441bbde1/0dec8287e78459ac3f877dda2a8374c9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/c1086e7b68403af4ffe71953441bbde1/ecb88b79f87662344be79b6476575770.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/d0c35a935cfe852a2bfe75b8e0ec2bf5/b20bea398214ce46ca719d08fd2154c5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/d2a07aff29544edbf53f29d9ab90fef8/27dcb074e65dc6f9a522a5db4a5dc7ea.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/debaa111a1379512e62b43bcc61a647f/5a18dba55ebe14c9225271635d51cb44.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/debaa111a1379512e62b43bcc61a647f/73acfcc58b631afbcbc2171911a5671d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/debaa111a1379512e62b43bcc61a647f/827eedfe5067e8bfc6c3d31c788a8ca5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/debaa111a1379512e62b43bcc61a647f/8b8cc72fe06c0e5e617cdc0bd6e28b59.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/eea89ee1f2971d0e75c341198882aa53/ded3052c39bb74289082252069e9ec28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/eeb35673ae33b31b09cbebf410b7b08d/0c937006ccbc4ec257f114512dd8d1d2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/eeb35673ae33b31b09cbebf410b7b08d/1c06ceb0d376ac06d2e940ffc8b3329d.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/eeb35673ae33b31b09cbebf410b7b08d/88c20b6f3d516dbcb17e221c0cd53fc8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/eeb35673ae33b31b09cbebf410b7b08d/90e951b55b01cfe48daed336b90c5d23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/eeb35673ae33b31b09cbebf410b7b08d/ab0753107e12cd3bc01f8a4946893c80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/eeb35673ae33b31b09cbebf410b7b08d/d7da866c17e8000144c32dbbe6a9d5f0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/f371e7e154d15ac548017a1845fc0e50/035ec2ddddb8cf262e1c2eaad8ca22ef.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/f509221cafde3c07752b67497e46e367/058759e668ce9b2a4c5a0e6439caf2a5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/f509221cafde3c07752b67497e46e367/05ace053f1a4541a5f65cf5b34f4e3d8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/32b9e9e0700e915caea2bf8ad3ed87fd/f509221cafde3c07752b67497e46e367/b91c293d7aaa64bb1784d84b9d11ea53.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/33e0fe245d48a04256ad77d53e76558d/b6ea5c355ef5efe200716e7f2f7c8d1f/77069b62b2c322fc65a3f8cf75d243ab.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/33e0fe245d48a04256ad77d53e76558d/f473f973e6ef9e8abda59cf9aadd00e3/56df8f576f26a342b12ef7ba10556daa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/c9423873407771fc503a17c0d0228a9f/temp/82d8b6c0ffe3238fcf5723e06c8241d3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/c9423873407771fc503a17c0d0228a9f/temp/afcc3555eaaefa5ae5f67820c3f4c18c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/upload/c9423873407771fc503a17c0d0228a9f/temp/f33ee8d55b182afab8fbb675a1591a73.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/weibo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Infrastructure/Code/check_code.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Infrastructure/Commons.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Infrastructure/DI/Meta.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Infrastructure/Page/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Infrastructure/Page/pager.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Infrastructure/Rabbit/push.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Infrastructure/Rabbit/redis测试.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Module/Comment.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Module/UserAcc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Module/Weibo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushModel/DbConnection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushModel/rabbit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PushModel/获取订阅.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/Comment.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/UserAcc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/Weibo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Repository/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/bootstrap-3.3.0/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/css/font-awesome-ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/css/font-awesome-ie7.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/font-awesome-ie7.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/font-awesome-ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/homepage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/jquery.sinaEmotion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/register.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/css/top.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/css/font-awesome-ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/css/font-awesome-ie7.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/font-awesome-ie7.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/font-awesome-ie7.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/img/right/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/js/jquery-1.8.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/js/jquery-1.8.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/js/jquery-1.8.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/js/jquery-1.9.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/js/jquery.sinaEmotion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/js/treebiao.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/js/wupeiqi.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/plugins/bxSlider/jquery.bxslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Statics/plugins/bxSlider/jquery.bxslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Weibo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Weibo/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Weibo/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Weibo/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/account/my_index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/account/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/home/find.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/home/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/home/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layout/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Forms/Forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Forms/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/Forms/login_forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/controllers/account.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/controllers/text.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/home/home.py" />
+    </list>
+    <ignored path="weibo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="weibo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Meta.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Infrastructure/DI/Meta.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="42" />
+    <option name="y" value="135" />
+    <option name="width" value="1388" />
+    <option name="height" value="828" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="weibo" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weibo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbd70913-d0d7-4cb2-9234-cb5d0bd6ccc3" name="Default" comment="" />
+      <created>1478071190161</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1478071190161</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="42" y="135" width="1388" height="828" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Infrastructure/DI/Meta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
